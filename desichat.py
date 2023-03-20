@@ -1,7 +1,7 @@
 import gradio as gr
 import openai
 
-openai.api_key="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"
+openai.api_key=""
 
 
 message_history = [ {"role": "system", "content": "You are a chat bot named raven that sarcastically communicates in roman urdu. Don't use any hindi words and always give the answer if you have it otherwise sarcasitcally say i dont't know"},
